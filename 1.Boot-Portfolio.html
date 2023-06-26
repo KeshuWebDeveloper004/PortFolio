@@ -1,0 +1,583 @@
+
+<html>
+    <head>
+        <title>My Portfolio</title>
+           
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    </head>
+    <style>
+       
+        html
+        {
+        scroll-behavior:auto;
+        }
+        .row1
+        {
+         display:inline-flex;
+         padding:40px;
+        
+        }
+        .row1 a
+        {
+         margin-right:0px;
+         margin-left:30px;
+         font-size:16px;
+         text-decoration:none;
+        }
+        .row1 a:hover
+        {
+         color:red;
+         transition:0.6s ease;
+        }
+        span
+        {
+        color:darkolivegreen;
+        font-family:Times New Roman;
+        }
+        .row2 a
+        {
+         color:black;
+         text-decoration:none;
+        }
+        .row2 button
+        {
+         border-radius:10px;
+        }
+        .img-circle
+        {
+         box-shadow:3px 3px 5px rgba(0, 0, 0,0.4),
+                   -3px -3px 5px  rgba(0, 0, 0,0.4);
+         background:repeating-conic-gradient(black,white);
+         backdrop-filter:blure(6px);
+         cursor:pointer;
+        }
+        .Head1
+        {
+         background:repeating-conic-gradient(black,white);
+          border-radius:15px;
+           margin-bottom:10px;
+        }
+        .icon
+        {
+         cursor:pointer;
+        }
+        .row3 h2
+        {
+         text-align:center;
+        }
+        .row4 h3
+        {
+         text-align:center;
+        }
+        .About .text-justify
+        {
+         padding:15px;
+        }
+        .About button
+        {
+         border-radius:10px;
+        }
+        .About
+        {
+         box-shadow:3px 3px 5px rgba(0, 0, 0,0.4),
+                   -3px -3px 5px  rgba(0, 0, 0,0.4);
+                   background:black;
+                   color:antiquewhite;
+                   border-radius:15px;
+
+        }
+        .row4 h2
+        {
+         text-align:center;
+        }
+        .row6 h3
+        {
+         text-align:center;
+        }
+        .row6 .progress-bar
+        {
+         color:black;
+         cursor:pointer;
+        }
+        .Skills
+        {
+         box-shadow:3px 3px 5px rgba(0, 0, 0,0.4),
+                   -3px -3px 5px  rgba(0, 0, 0,0.4);
+                   background:black;
+                   color:antiquewhite;
+                   border-radius:15px;
+        }
+        .row7 h3
+        {
+         text-align:center;
+        }
+        .My-Services a
+        {
+         text-decoration:none;
+        }
+        .My-Services a:hover
+        {
+         color:darkblue;
+        }
+        .My-Services
+        {
+             box-shadow:3px 3px 5px rgba(0, 0, 0,0.4),
+                   -3px -3px 5px  rgba(0, 0, 0,0.4);
+                   background:black;
+                   color:antiquewhite;
+                   border-radius:15px;
+                   margin-top:10px;
+                   margin-bottom:10px;
+        }
+        .row14 h3
+        {
+         text-align:center;
+         margin:0;
+         padding:0;
+        }
+        .Map
+        {
+        filter:invert(100%);
+        padding-bottom:10px;
+        margin-top:0;
+        }
+        .row15 h3
+        {
+         text-align:center;
+        }
+
+        .contact
+        {
+          box-shadow:3px 3px 5px rgba(0, 0, 0,0.4),
+                   -3px -3px 5px  rgba(0, 0, 0,0.4);
+                   background:black;
+                   color:antiquewhite;
+                   border-radius:15px;
+        }
+        .contact1
+        {
+         padding-left:210px;
+        }
+        .row8:hover
+        {
+         color:red;
+         opacity:0.8;
+         transition:0.8s ease;
+        }
+        .row9:hover
+        {
+         color:red;
+         opacity:0.8;
+         transition:0.8s ease;
+        }
+        .row10:hover
+        {
+         color:red;
+         opacity:0.8;
+         transition:0.8s ease;
+        }
+        .row11:hover
+        {
+         color:red;
+         opacity:0.8;
+         transition:0.8s ease;
+        }
+        .row12:hover
+        {
+         color:red;
+         opacity:0.8;
+         transition:0.8s ease;
+        }
+        .row13:hover
+        {
+         color:red;
+         opacity:0.8;
+         transition:0.8s ease;
+        }
+        .footer a:hover
+        {
+         color:green;
+        }
+        .footer .row22
+        {
+         padding-left:60px;
+        }
+        .footer a
+        {
+        text-decoration:none;
+        padding:10px;
+        }
+        .row20
+        {
+         margin-top:-20px;
+        }
+        .resume
+        {
+         box-shadow:3px 3px 5px rgba(0, 0, 0,0.4),
+                   -3px -3px 5px  rgba(0, 0, 0,0.4);
+                   background:black;
+                   color:antiquewhite;
+                   border-radius:15px;
+                   margin-top:10px;
+                   margin-bottom:10px;
+        }
+        .resume1
+        {
+        margin-left:120px;
+        padding-right:120px;
+        }
+        .footer
+        {
+         box-shadow:3px 3px 5px rgba(0, 0, 0,0.4),
+                   -3px -3px 5px  rgba(0, 0, 0,0.4);
+                   background:black;
+                   color:antiquewhite;
+                   border-radius:15px;
+                   margin-top:10px;
+                   margin-bottom:10px;
+        }
+    </style>
+    <body>
+        <div class="container Header ">
+        <div class="row">
+        <div class="col-sm-3">
+        <h3 class="icon"><i class="fas fa-code fa-2x text-danger"> </i><span><b>P</span>ort<span>F</span>olio</b></h3>
+    </div>
+
+    <div class="cal-sm-10 Head">
+        <div class="row1">
+            <div class="cal-sm-2">
+            <a href="#home1"><b>Home</b></a>
+        </div>
+        <div class="cal-sm-2">
+           <a href="#About"><b>About</b></a>
+        </div>
+        <div class="cal-sm-2">
+           <a href="#Resume"><b>Resume</b></a>
+        </div>
+        <div class="cal-sm-1">
+            <a href="#Skills"><b>Skills</b></a>
+        </div>
+        <div class="cal-sm-1">
+            <a href="#My-Services"><b>My-Services</b></a>
+        </div>
+        <div class="cal-sm-1">
+           <a href="#Map"><b>Map</b></a>
+        </div>
+        <div class="cal-sm-1">
+           <a href="#Contact"><b>Contact</b></a>
+        </div>
+
+</div>
+</div>
+</div>
+</div>
+
+     <div class="container Head1">
+    <div class="row2">
+        <div class="col-sm-5 home">
+            <br><br><br><br>
+         <h3><b class="text-danger"></b><b>HI, I'm</b></h3>
+      <h2><span><strong>K</strong></span>esavan</h2>
+      <br>
+        <h1><span>W</span>EB <span>D</span>ESIGNER</h1>
+        <br>
+        <button type="button"class="btn btn-warning btn-xs">Download CV</button>
+        <button type="button"class="btn btn-success btn-xs">Play Video</button>
+         <h3><marquee><b>Web Designer</b></marquee></h3> 
+    </div>
+    <div class="cal-sm-7">
+     <img src="Picsart_22-10-27_22-05-22-981-removebg.png"width="450px"height="450px"class="img-circle"> 
+    </div>
+    </div>
+    </div>
+
+     <div id="About" class="container About">
+        <div class="row3">
+        <div class="cal-sm-12">
+        <h2 class="text-primary"><b>ABOUT ME</b></h2>
+        </div>
+        <div class="row4">
+        <h3><mark><i class="fa-solid fa-angle-left"></i>UI/UX Developer & Web Developer<i class="fa-solid fa-angle-right"></i></mark></h3>
+    <div class="col-sm-5">
+        <img class="img-circle"src="https://c0.wallpaperflare.com/preview/841/173/306/web-network-technology-developer.jpg"width="390px"height="355px"></div>
+        <div class="col-sm-7">
+        <p class="text-justify"><b>I am web developer.I can provide clean code and pixel perfect design.I also make the website more & more interactive with web animations.A responsive design make your website accessible to all users,regardless of their device.</p></b><p class="text-justify"><b>Solution-driven web developer adept at contributing to highly collaborative work environment and finding solutions. Proven experience developing consumer-focused websites using HTML, CSS, PHP and JavaScript. Good knowledge of the best practices for web design, user experience, and speed.</b></p>
+            
+            <button type="button"class="btn btn-primary btn-xs">Hire Me</button>
+            <button type="button"class="btn btn-info btn-xs">Learn More</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="Resume" class="container Resume ">
+     <div class="row4">
+     <h2 class="text-primary"><b>EDUCATION & EXPERIENCE</b></h2>
+ </div>
+ <div class="container Resume1">
+        <div class="row5">
+        <div class="col-sm-6">
+     <h3 ><i class="fa-solid fa-user-graduate"style="color:red";></i> My Education</h3>
+     <strong class=text-danger><i class="fa-solid fa-landmark"></i> 2015-2019</strong>
+     <br><br>
+     <p><b>BE.MECHANICAL ENGINEERTING</b></p>
+     <h5><b class="text-primary">ANNA UNIVESITY</b></h5>
+     <br>
+     <strong class=text-danger><i class="fa-solid fa-landmark"></i> DEC-2022</strong>
+     <br><br>
+     <p><b>WEB DESIGNING</b></p>
+     <h5><b class="text-primary">SLA-INSTITUTE</b></h5>
+ </div>
+ <div class="cal-sm-6">
+     <h3><i class="fa-solid fa-business-time"style="color:red";></i> My Experience</h3>
+     <strong class=text-danger><i class="fa-solid fa-landmark"></i> 2019-2020</strong>
+     <br><br>
+     <p><b>PRODUCTION SUPERVISOR</b></p>
+     <h5><b class="text-primary">SHYAM CONTROL DEVICE PVT LTD</b></h5>
+     <br>
+     <strong class=text-danger><i class="fa-solid fa-landmark"></i>2020-2022</strong>
+     <br><br>
+     <p><b>PROJECT ENGINEER</b></p>
+     <h5><b class="text-primary">ZIGMA GLOBAL ENVIRON SOLUTION</b></h5>
+ </div>
+</div>
+</div>
+</div>
+      <div id="Skills" class="container Skills">
+        <div class="row6">
+        <h3 class="text-primary"><b>MY SKILLS</b></h3>
+   <div class="col-sm-6">
+    <img src="https://cdn-icons-png.flaticon.com/128/5968/5968267.png"width="30px"height="30px">
+    <h6><b>HTML</b></h6>
+        <div class="progress">
+    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+      100%
+    </div>
+</div>
+    <img src="https://cdn-icons-png.flaticon.com/128/919/919826.png"width="30px"height="30px">
+    <h6><b>CSS</b></h6>
+        <div class="progress">
+    <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+      90%
+    </div>
+</div>
+    <img src="https://cdn-icons-png.flaticon.com/512/143/143655.png"width="30px"height="30px">
+    <h6><b>BOOTSTRAP</b></h6>
+    <div class="progress">
+    <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width:95%">
+      95%
+    </div>
+</div>
+</div>
+
+<div class="col-sm-6">
+    <img src="https://cdn-icons-png.flaticon.com/128/1199/1199124.png"width="30px"height="30px">
+    <h6><b>JAVA SCRIPT</b></h6>
+        <div class="progress">
+    <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+    <!-- Under_Progress_0% -->80%
+    </div>
+</div>
+    <img src="https://cdn-icons-png.flaticon.com/128/5968/5968332.png"width="30px"height="30px">
+    <h6><b>PHP</b></h6>
+        <div class="progress">
+    <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+    80%
+    </div>
+</div>
+    <img src="https://cdn-icons-png.flaticon.com/128/919/919836.png"width="30px"height="30px">
+    <h6><b>MY SQL</b></h6>
+    <div class="progress">
+    <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+    <!-- Under_Progress_0% -->80%
+    </div>
+</div>
+</div>
+</div>
+</div>
+    <div id="My-Services" class="container My-Services">
+        <div class="row7">
+            <h3 class="text-primary"><b>MY SERVICES</b></h3>
+        <div class="col-sm12">
+            <div class="row8">
+        <div class="col-sm-4">
+        <h4><i class="fa-solid fa-desktop"style="color:skyblue;"></i><b> Web Design</b></h4>
+        <p class="text-justify">Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development...</p>
+        <a href="#">Read More</a>
+    </div>
+    </div>
+    <div class="row9">
+    <div class="col-sm-4">
+        <h4><i class="fa-solid fa-laptop-code"style="color:skyblue;"></i><b> Development</b></h4>
+        <p class="text-justify">Web developers create and maintain websites. They are also responsible for the site's technical aspects, such as its performance and capacity...</p>
+        <a href="#">Read More</a>
+    </div>
+    </div>
+    <div class="row10">
+    <div class="col-sm-4">
+        <h4><i class="fa-brands fa-android"style="color:skyblue;"></i><b> App Design</b></h4>
+        <p class="text-justify">App design combines the user interface (UI) and user experience (UX). While UI lends itself to the overall style of the app (including the colors, fonts, and ...</p>
+        <a href="#">Read More</a>
+        <br><br>
+    </div>
+    </div>
+     <div class="row11">
+     <div class="col-sm-4">
+        <h4><i class="fa-brands fa-apple"style="color:skyblue;"></i><b> App Development</b></h4>
+        <p class="text-justify">Discover the latest app development tools, platform updates, training, and documentation for developers across every Android device...</p>
+        <a href="#">Read More</a>
+    </div>
+    </div>
+    <div class="row12">
+    <div class="col-sm-4">
+        <h4><i class="fa-sharp fa-solid fa-magnifying-glass"style="color:skyblue;"></i><b> SEO</b></h4>
+        <p class="text-justify">SEO developers are front-end web developers who specialize in optimizing search engine discovery and rankings. They are involved in the technicalcreation...</p>
+        <a href="#">Read More</a>
+    </div>
+    </div>
+    <div class="row13">
+    <div class="col-sm-4">
+        <h4><i class="fa-solid fa-file-pen"style="color:skyblue;"></i><b> Content Creating</b></h4>
+        <p class="text-justify">Content creation is the process of generating topic ideas that appeal to your buyer persona, creating written or visual content around those ...</p>
+        <a href="#">Read More</a>
+    </div>
+    </div>
+</div>
+</div>
+</div>
+
+    <div id="Map" class="container Map">
+        <div class="row14 well">
+            <h3 class="text-primary"><b>MY LOCATION</b></h3>
+        </div>
+        <div class="row20">
+            <div class="cal-sm-12">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31311.87525513858!2d77.75476027545567!3d11.188789290705904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba97a2348bb7be5%3A0xfdddf2a74bd8e96d!2sElumathur%2C%20Tamil%20Nadu%20638104!5e0!3m2!1sen!2sin!4v1675378497168!5m2!1sen!2sin" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</div>
+<div id="Contact"class="container Contact">
+       <div class="container Cont">
+        <div class="row15">
+            <h3 class="text-primary"><b>CONTACT ME</b></h3>
+        </div>
+    </div>
+        <div class="container Contact1">
+        <form class="form-inline">
+            <div class="form-group">
+                <lable for="name">Name:</lable>
+                <input type="Text"class="form-control"id="name"placeholder="Enter-Your-Name">
+                <lable for="D.O.B">Date Of Birth:</lable>
+                <input type="date"class="form-control"id="D.O.B"></div> 
+        </form>
+
+        <form class="form-inline">
+            <div class="form-group1">
+            <lable for="degree">Degree:</lable>
+                <input type="text"class="form-control"id="degree"placeholder="Enter-Your-Degree">
+                <lable for="experience">Exprce:</lable>
+                <input type="text"class="form-control"id="experience"placeholder="Experience-Level"></div>
+            </form>
+
+        <form class="form-inline">
+            <div class="form-group">
+            <lable for="phone">Phone:</lable>
+                <input type="number"class="form-control"id="phone"placeholder="Contact-Number">
+                <lable for="email">Email Id:</lable>
+                <input type="email"class="form-control"id="email"placeholder="Enter-Your-Mail"></div>
+            </form>
+        <form class="form-inline">
+            <div class="form-group">
+            <lable for="address">Addres:</lable>
+                <input type="text"class="form-control"id="address"placeholder="Enter-Your-Address">
+                <lable for="freelancer">F-lancer:</lable>
+                <input type="text"class="form-control"id="freelancer"placeholder="Available(or)Not"></div>
+            </form>
+            <div class="btn"style="padding-left:260px">
+            <button type="button"class="btn btn-primary btn-xs">Submit</button>
+        </div>
+</div>
+</div>
+      <div class="container footer">
+        <div class="row21">
+            <div class="col-sm-12">
+            <div class="logo"style="padding-left:300px;margin-top:20px;">
+            <div class="col-sm-1">
+            <a href="#"><i class="fa-brands fa-square-facebook"style="font-size:48px;color:darkblue;"></i></a>
+           </div>
+           <div class="col-sm-1">
+            <a href="#"><i class="fa-brands fa-square-instagram"style="font-size:48px;color:deeppink;"></i></a>
+           </div>
+           <div class="col-sm-1">
+            <a href="#"><i class="fa-brands fa-youtube"style="font-size:48px;color:red"></i></a>
+           </div>
+           <div class="col-sm-1">
+            <a href="#"><i class="fa-brands fa-telegram"style="font-size:48px;color:deepskyblue;padding-right:10px;padding-left:10px;"></i></a>
+           </div>
+           <div class="col-sm-1">
+            <a href="#"><i class="fa-brands fa-twitter"style="font-size:48px;color:deepskyblue;padding-left:10px;"></i></a>
+           </div>
+       </div>
+       </div>
+    <br><br><br>
+           <div class="container footer1"style="margin-top:40px;">
+            <div class="row22">
+            <div class="col-sm-12">
+            <a href="#"><b>About</b></a>
+         
+            <a href="#"><b>Need Help?</b></a>
+         
+            <a href="#"><b>Content Guide</b></a>
+           
+            <a href="#"><b>Lifehacker Store</b></a>
+           
+            <a href="#"><b>Privacy</b></a>
+          
+            <a href="#"><b>Terms of Use</b></a>
+       
+            <a href="#"><b>Advertising</b></a>
+         
+            <a href="#"><b>Jobs</b></a>
+           </div>
+       </div>
+           <div class="row23">
+           <div class="col-sm-12">
+            <h5 style="text-align:center;margin-top:30px;"><body>@2023<a href="#">GO Media Inc.</b></a></h5>
+           </div>
+
+
+
+       </div>
+</div>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
